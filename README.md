@@ -15,8 +15,13 @@ En versiones anteriores de Windows (por ejemplo, Windows 7): En el Panel de cont
 ### 3.Crear una nueva fuente de datos:
 Dentro de la ventana "Administrador de orígenes de datos ODBC", ve a la pestaña "DSN de usuario" o "DSN del sistema", según prefieras. Seleccionar "DSN de usuario" permitirá que la fuente de datos esté disponible solo para tu usuario, mientras que "DSN del sistema" la hará accesible para todos los usuarios del sistema. Por cuestiones de seguridad, es recomendable utilizar "DSN de usuario" si no tienes razones específicas para utilizar "DSN del sistema".
 
+Ventana del Administrador ODBC:
+[![Captura-de-pantalla-2023-07-25-222221.png](https://i.postimg.cc/Pqh5zC1X/Captura-de-pantalla-2023-07-25-222221.png)](https://postimg.cc/nXRxncdg)
 ### 4. Seleccionar el controlador de la base de datos:
 Haz clic en el botón "Agregar" para ver una lista de controladores de base de datos disponibles. Elige el controlador apropiado para la base de datos que deseas conectar. Si no ves el controlador en la lista, es posible que debas instalarlo antes de continuar.
+
+[![Captura-de-pantalla-2023-07-25-222243.png](https://i.postimg.cc/TYJd2RZB/Captura-de-pantalla-2023-07-25-222243.png)](https://postimg.cc/dLDP4KQ9)
+
 
 ### 5. Configurar la fuente de datos: 
 Rellena los campos necesarios para configurar la conexión con tu base de datos. Los campos requeridos pueden variar según el tipo de base de datos y el controlador que estés utilizando. Aquí hay algunos campos comunes que deberás completar:
@@ -27,14 +32,23 @@ Rellena los campos necesarios para configurar la conexión con tu base de datos.
 - Base de datos: Indica el nombre de la base de datos a la que deseas conectarte.
 - Autenticación: Elige el tipo de autenticación que utilizarás para acceder a la base de datos (por ejemplo, usuario y contraseña).
 
+Ventana para visualizar los conectores:
+[![imagen-2023-07-25-231655291.png](https://i.postimg.cc/DfjRK6PV/imagen-2023-07-25-231655291.png)](https://postimg.cc/ThbtVrsQ)
+
+
 ### 6.Probar la conexión:
 Algunos asistentes de configuración te permitirán probar la conexión antes de finalizar. Asegúrate de probarla para verificar que todo esté configurado correctamente.
 
 ### 7. Finalizar la configuración: 
 Una vez que hayas completado todos los campos necesarios y probado la conexión, haz clic en "Aceptar" o "Finalizar" para guardar la fuente de datos ODBC.
 
+
+[![imagen-2023-07-25-232229803.png](https://i.postimg.cc/kGJVF9hH/imagen-2023-07-25-232229803.png)](https://postimg.cc/sQLD3FzP)
 ### 8. Verificar la fuente de datos: 
 Regresa a la lista de fuentes de datos ODBC en el "Administrador de orígenes de datos ODBC" para asegurarte de que la nueva fuente de datos se haya creado correctamente.
+
+[![imagen-2023-07-25-232445170.png](https://i.postimg.cc/CKMLQJ4Z/imagen-2023-07-25-232445170.png)](https://postimg.cc/TKS6yVFG)
+
 
 
 ## ** Conexión del ODBC a JDBC **
